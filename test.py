@@ -18,3 +18,14 @@ print("---------")
 print("Your BMI indicates that you are {0} for your heigh and weightt".format(bmi_status(90, 1.8)))
 print("---------")
 print("Your BMI indicates that you are {0} for your height and weight".format(bmi_status(100, 1.8)))
+
+
+#Create another function for the computation
+
+def compute_bmi(m, h):
+    """
+    Returns the value of the BMI
+    """
+    b = m / (h **2)
+    print("Your BMI is {0:.1f}".format(b))
+    return b
