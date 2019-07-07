@@ -1,3 +1,5 @@
+#This is an exercise for using the .format() function
+
 def bmi_status(mass, height):
     """For adults only. Mass should be in kilograms and height in metres."""
     bmi = mass / (height ** 2)
